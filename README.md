@@ -31,3 +31,6 @@ var connection = mysql.createConnection({
 3)Open your terminal and write 'npm install' to install required packages
 
 4)Finally 'node server' to start the app
+
+
+Live website link-   ec2-3-93-17-4.compute-1.amazonaws.com:3000
