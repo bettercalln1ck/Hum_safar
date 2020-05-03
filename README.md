@@ -28,6 +28,6 @@ var connection = mysql.createConnection({
     database : 'mydb'
 });
 
-3)Open your terminal and write 'npm init' to install required packages
+3)Open your terminal and write 'npm install' to install required packages
 
 4)Finally 'node server' to start the app

@@ -14,6 +14,8 @@
   "author": "Nikhil",
   "license": "ISC",
   "dependencies": {
+    "complexity-report": "^2.0.0-alpha",
+    "cr": "^0.1.0",
     "dotenv": "8.1.0",
     "express": "*",
     "express-session": "^1.17.1",
@@ -27,6 +29,7 @@
   },
   "homepage": "",
   "devDependencies": {
+    "eslint": "^6.8.0",
     "jshint": "^2.9.5"
   }
 }
