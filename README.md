@@ -1,7 +1,9 @@
-Steps to run this project:
+# Steps to run this project:
 
-1)First setup you mysql database
+### 1)First setup you mysql database
 
+#### a)Open my sql using "mysql -u root -p" 
+#### b)Create database and initialise data in using following commands:-
 CREATE DATABASE IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `mydb`;
 
@@ -17,20 +19,28 @@ INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES (1, 'test'
 ALTER TABLE `accounts` ADD PRIMARY KEY (`id`);
 ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 
+#### (Default username and password is "test" and "test")
 
-2)Input your database credentials in database.js
+
+### 2)Input your database credentials in *database.js.*
+#### (Database credentials refer to username and password of mysql and name od databse in mysql.)
 
 
 var connection = mysql.createConnection({
+
     host     : 'localhost',
     user     : 'nikolai',
     password : 'node',
     database : 'mydb'
+    
 });
 
-3)Open your terminal and write 'npm install' to install required packages
-
-4)Finally 'node server' to start the app
+### 3)Open your terminal and write 'npm install' to install required *nodejs* packages
 
 
-Live website link-   ec2-3-93-17-4.compute-1.amazonaws.com:3000
+### 4)Finally 'node server' to start the server of the project.
+
+
+
+
+####  Live website link-   [Click here](ec2-3-93-17-4.compute-1.amazonaws.com:3000)
