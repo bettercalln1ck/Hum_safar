@@ -1,5 +1,10 @@
 # Steps to run this project:
 
+
+#### (must have nodejs and mysql install in your system)
+##### a)install node js using "sudo apt-get install nodejs"
+##### b)install mysql using "sudo apt-get install mysql"
+
 ### 1)First setup you mysql database
 
 #### a)Open my sql using "mysql -u root -p" 
