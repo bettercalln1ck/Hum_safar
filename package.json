@@ -19,7 +19,7 @@
     "dotenv": "8.1.0",
     "express": "*",
     "express-session": "^1.17.1",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "mysql": "^2.18.1",
     "socket.io": "*",
     "ws": ">=3.3.1"
