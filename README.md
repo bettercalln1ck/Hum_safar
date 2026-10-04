@@ -27,25 +27,10 @@ ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMEN
 #### (Default username and password is "test" and "test")
 
 
-### 2)Input your database credentials in *database.js.*
-#### (Database credentials refer to username and password of mysql and name od databse in mysql.)
+### 2)Set your DB credentials in `database.js`
 
-
-var connection = mysql.createConnection({
-
-    host     : 'localhost',
-    user     : 'nikolai',
-    password : 'node',
-    database : 'mydb'
-    
-});
 
 ### 3)Open your terminal and write 'npm install' to install required *nodejs* packages
 
 
 ### 4)Finally 'node server' to start the server of the project.
-
-
-
-
-####  Live website link-  [Click here](http://ec2-3-93-17-4.compute-1.amazonaws.com:3000)
